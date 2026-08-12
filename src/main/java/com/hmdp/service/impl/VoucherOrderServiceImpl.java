@@ -1,6 +1,5 @@
 package com.hmdp.service.impl;
 
-import com.hmdp.dto.Result;
 import com.hmdp.entity.VoucherOrder;
 import com.hmdp.mapper.VoucherOrderMapper;
 import com.hmdp.service.IVoucherOrderService;
@@ -18,8 +17,4 @@ import org.springframework.stereotype.Service;
 @Service
 public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, VoucherOrder> implements IVoucherOrderService {
 
-    @Override
-    public Result seckillVoucher(Long voucherId) {
-        return null;
-    }
 }
